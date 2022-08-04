@@ -1,0 +1,7 @@
+controllers:
+    resource: ../src/Controller/
+    type: attribute
+
+app_contact_fapad:
+    path: /contact/fapad
+    controller: App\Controller\FapadController::fapadForm
