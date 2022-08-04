@@ -12,6 +12,7 @@ use Symfony\Component\HttpFoundation\Request;
 
 class ContactController extends AbstractController
 {
+    /*comment*/
     private $em;
 
     public function __construct (EntityManagerInterface $em) {
